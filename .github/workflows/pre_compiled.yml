@@ -49,7 +49,7 @@ jobs:
           token = os.getenv('HF_TOKEN')
           version = os.getenv('version')
           login(token)
-          repo_id = 'marpogiii-code/Applio'
+          repo_id = 'leonormar009/Applio'
           repo_file_path = f'D:/a/Applio/ApplioV{version}.zip'
           
           upload_file(
